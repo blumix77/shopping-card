@@ -1,0 +1,77 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;    
+}
+
+.card {
+    border: 6px groove red;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+div {
+    box-sizing: border-box;
+    height: 50vh;
+  
+}
+
+.content .heart {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    background-image: linear-gradient(to right, black, red);
+}
+
+
+.content .img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.content .text {
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 1.8rem;
+}
+
+
+p { 
+    padding-left: 30px;
+    border: 2px dotted darkmagenta;
+    width: 10vw;
+    margin-left: 5px;
+    background-color: yellow;
+}   
+
+p:hover {
+    font-weight: 800;
+    text-decoration: line-through;
+    scale: 2;
+    box-shadow: 10px 10px magenta;
+    scroll-behavior: smooth;
+    transition: 0.4s;
+}
+
+ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+ul li:first-child {
+    text-shadow: 2px 2px grey;
+    font-weight: 800;
+}
